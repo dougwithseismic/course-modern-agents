@@ -1,81 +1,94 @@
-# Turborepo starter
+# Building Modern AI Agents with JavaScript
 
-This is an official starter Turborepo.
+**AI Agents are already taking our jobs—here's how to build and launch modern agents with JavaScript to automate work.**
 
-## Using this example
+## What You'll Build
 
-Run the following command:
+- **Full-Stack Agent Desktop App**: Build your own full-stack agent desktop application that allows multiple bots and humans to interact across React, Slack, APIs, and more to get tasks completed.
+- **Modern AI-Assisted Development**: Learn how to use Cursor for modern AI-assisted code development to build AI agents and tools.
+- **Scalable AI Projects**: Learn through a practical project how to scale AI to commercial levels with queues, workers, WebSockets, React, Next.js, and Express.
+- **Understanding AI Agents in Business**: Understand AI agents and their place in modern business.
 
-```sh
-npx create-turbo@latest
-```
+## Requirements
 
-## What's inside?
+- **Basic JavaScript Knowledge**: Some knowledge of JavaScript is helpful, but you'll be able to follow along from scratch.
+- **Entrepreneurial Spirit**: Ideal for entrepreneurs who want to scale their LLM code safely and securely.
 
-This Turborepo includes the following packages/apps:
+**If you're a developer who knows the AI gold rush is real but are tired of toy examples and theory, this is exactly what you need.**
 
-### Apps and Packages
+## Why This? Why Now?
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+The agent revolution isn't coming—**it's here**. While everyone else is still playing with chatbots, real businesses are deploying autonomous agent systems that:
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+- Run entire development pipelines
+- Handle complex customer support queues
+- Automate high-skill knowledge work
+- Replace high-paying jobs
 
-### Utilities
+And they're doing it **right now**.
 
-This Turborepo has some additional tools already setup for you:
+## What You'll Learn
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+- **Production-Ready Agent Architecture**: Build scalable, autonomous agents that are ready for production. No toys. No demos. Real, working systems.
+- **Multi-Agent Systems**: Learn how to build agents that work together, share tools, and solve complex problems autonomously.
+- **Real-World Integration**: Connect your agents to databases, APIs, and existing systems that businesses actually use.
+- **Advanced Patterns**: Master agent-to-agent communication, tool sharing, and asynchronous operations.
 
-### Build
+## What You Get
 
-To build all apps and packages, run the following command:
+- **Complete Video Course**: A hands-on guide to building production agent systems from scratch with TypeScript, OpenAI, React, Express, and Next.js. No fluff, no LangChain—just practical, shippable code.
+- **Behind-The-Scenes Build**: Watch us build a complete multi-agent system end-to-end, explaining every decision and pattern as we build a desktop agent app that we can hook up to automation platforms such as Make, n8n, webhooks, and other microservices.
+- **Architecture Templates**: Start with proven patterns that scale. Don't waste time reinventing the wheel. All code for all lessons will be provided.
+- **Access to Private Discord Channel**: Join other developers who are building and shipping agent systems right now.
 
-```
-cd my-turborepo
-pnpm build
-```
+## Who Is This For?
 
-### Develop
+- **Node.js/JavaScript Developers**: Turn your skills into agent-powered APIs you can charge for. Move beyond simple LLM apps and build autonomous systems that solve real problems.
+- **Technical Founders**: Skip months of trial and error. Build agent systems that work the first time.
 
-To develop all apps and packages, run the following command:
+## Course Contents
 
-```
-cd my-turborepo
-pnpm dev
-```
+### 1. Agent Foundations
 
-### Remote Caching
+- **Introduction to Agents**: What are agents, what can they do, and why do we care?
+- **Build One Overview**: Demo and walkthrough.
+- **Project Setup**: TypeScript monorepo with Node.js/Express backend using pnpm.
+- **Project**: Building a basic desktop agent with Electron.
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+### 2. Multi-Agent Systems
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+- **Agent-to-Agent Communication**
+- **Tool Sharing Patterns**
+- **Task Orchestration**
+- **Asynchronous Operations**
+- **Project**: Building a LinkedIn Automator.
 
-```
-cd my-turborepo
-npx turbo login
-```
+### 3. Real-World Integration
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+- **Database Integration & Caching**
+- **API Connectivity**
+- **Security Patterns**
+- **Production Deployment**
+- **Job Queues and WebSockets**: We'll build a full-stack agent project with Express, Node.js, Redis, BullMQ, Socket.io, React, and Electron.
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+### 4. Monetization & Scaling
 
-```
-npx turbo link
-```
+- **Usage Tracking**
+- **Rate Limiting**
+- **Cost Management**
+- **Prompt Optimization**
 
-## Useful Links
+## Get Started Today
 
-Learn more about the power of Turborepo:
+Join us on this journey to master AI agents and revolutionize the way you build applications.
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+**Note**: All code and resources will be available in this repository. Make sure to check out the different branches for each module of the course.
+
+### Stay Connected
+
+- **Discord Server**: [Join our community](https://discord.gg/9HTXu2Uh) <!-- Replace with actual link -->
+- **Contact**: [hello@withseismic.com](hello@withseismic.com) <!-- Replace with actual email -->
+
+---
+
+© 2024 Doug Silkstone. All rights reserved.
