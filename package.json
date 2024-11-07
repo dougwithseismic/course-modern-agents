@@ -4,6 +4,10 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "make:express": "node make-express.js",
+    "dev:backend-api": "turbo dev --filter=backend-api",
+    "dev:fe-web": "turbo dev --filter=fe-web",
+    "dev:electron": "turbo dev --filter=desktop-electron",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
@@ -15,5 +19,8 @@
   "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "inquirer": "^12.0.1"
   }
 }
