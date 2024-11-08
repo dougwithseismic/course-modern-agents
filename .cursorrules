@@ -71,6 +71,10 @@ Generate code, corrections, and refactorings that comply with the basic principl
   - Less than 10 public methods.
   - Less than 10 properties.
 
+### Prompting and LLM Generation
+
+- Follow XML Format
+
 ### Exceptions
 
 - Use exceptions to handle errors you don't expect.
