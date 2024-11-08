@@ -26,7 +26,7 @@
     "vite-tsconfig-paths": "^5.1.0",
     "vitest": "^2.1.4"
   },
-  "name": "1-my-first-agent",
+  "name": "lesson-1-agent-basics",
   "private": true,
   "scripts": {
     "build": "tsc",
