@@ -10,6 +10,7 @@
     },
     "dev": {
       "cache": false,
+      "dependsOn": ["^build", "@repo/env#build"],
       "persistent": true
     },
     "lint": {

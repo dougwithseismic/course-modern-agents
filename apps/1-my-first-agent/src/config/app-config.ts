@@ -1,14 +1,14 @@
 import { env } from '@repo/env'
 import { logger } from './logger'
-import { name as packageName } from '../../package.json'
-
+import { name as packageName } from '@/../package.json'
 const appName = packageName || 'default-app-name'
 
 export const config = {
   APP_NAME: appName,
   NODE_ENV: env.NODE_ENV ?? 'development',
   PORT: env.PORT ?? 666,
-  BASE_URL: env.API_BASE_URL,
+  BASE_URL: env.API_BASE_URL ?? 'http://localhost:666',
+  OPENAI_API_KEY: env.OPENAI_API_KEY,
   API: {
     TIMEOUT: env.API_TIMEOUT,
   },
