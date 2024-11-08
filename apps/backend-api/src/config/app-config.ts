@@ -1,12 +1,12 @@
-import { env } from "@repo/env";
-import { logger } from "./logger";
-import { name as packageName } from "../../package.json";
+import { env } from '@repo/env'
+import { logger } from './logger'
+import { name as packageName } from '../../package.json'
 
-const appName = packageName || "default-app-name";
+const appName = packageName || 'default-app-name'
 
 export const config = {
   APP_NAME: appName,
-  NODE_ENV: env.NODE_ENV ?? "development",
+  NODE_ENV: env.NODE_ENV ?? 'development',
   PORT: env.PORT ?? 666,
   BASE_URL: env.API_BASE_URL,
   API: {
@@ -23,7 +23,7 @@ export const config = {
       MAX_ATTEMPTS: env.RATE_LIMIT_AUTH_MAX_ATTEMPTS,
     },
   },
-} as const;
+} as const
 
 // Log configuration on startup
-logger.info("🕵️‍♂️ :: Configuration loaded");
+logger.info('🕵️‍♂️ :: Configuration loaded')

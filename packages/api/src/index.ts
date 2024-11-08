@@ -17,6 +17,6 @@
  * const user = await api.post('/users', { name: 'John' });
  * ```
  */
-export { createApiClient } from "./api-client.js";
-export { ApiError } from "./types.js";
-export type { ApiClientConfig, RequestConfig, HttpMethod } from "./types.js";
+export { createApiClient } from './api-client.js'
+export { ApiError } from './types.js'
+export type { ApiClientConfig, RequestConfig, HttpMethod } from './types.js'

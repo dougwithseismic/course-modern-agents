@@ -53,7 +53,7 @@ And they're doing it **right now**.
 - **Introduction to Agents**: What are agents, what can they do, and why do we care?
 - **Build One Overview**: Demo and walkthrough.
 - **Project Setup**: TypeScript monorepo with Node.js/Express backend using pnpm.
-- **Project**: Building a basic desktop agent with Electron.
+- **Project**: Building a basic Agent that.
 
 ### 2. Multi-Agent Systems
 
@@ -77,6 +77,31 @@ And they're doing it **right now**.
 - **Rate Limiting**
 - **Cost Management**
 - **Prompt Optimization**
+
+## Getting Started
+
+### Creating New Apps &
+
+This project uses Turborepo generators to scaffold new apps and packages quickly. You can create new components of your project using the following commands:
+
+#### Available Templates
+
+- **Apps**
+
+  - `express`: A pre-configured Express.js backend with TypeScript, logging, testing, and environment management
+  - More templates coming soon...
+
+- **Packages**
+  - `default`: A basic TypeScript package with testing setup and proper export configurations
+  - More templates coming soon...
+
+Each template comes with:
+
+- TypeScript configuration
+- ESLint & Prettier setup
+- Testing infrastructure
+- Proper package.json configuration
+- Environment management (for apps)
 
 ## Get Started Today
 

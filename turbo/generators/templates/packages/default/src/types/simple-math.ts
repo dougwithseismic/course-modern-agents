@@ -1,6 +1,6 @@
 export type SimpleMathOperationParams = {
-  a: number;
-  b: number;
-};
+  a: number
+  b: number
+}
 
-export type SimpleMathResult = number;
+export type SimpleMathResult = number
